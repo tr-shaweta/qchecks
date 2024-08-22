@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Qualitychecks.urls'
+ROOT_URLCONF = 'qualitychecks.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Qualitychecks.wsgi.application'
+WSGI_APPLICATION = 'qualitychecks.wsgi.application'
 
 
 # Database
