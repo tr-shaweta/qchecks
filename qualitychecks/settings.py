@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'qc',
     'rest_framework',
+    'vendors',
     
 ]
 
