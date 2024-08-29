@@ -19,5 +19,13 @@ class InventoryDal:
                         (sku_code,))
         results = cur.fetchall()
         print("res", results)
-        return results
+        response_result = []
+        for res in results:
+            temp_dict = {
+                "sku": res[0],
+                "edd": res[1],
+                "quantity": res[2],
+            }
+            response_result.append(temp_dict)
+        return response_result
         
